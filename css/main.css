@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1100px;
+}
+.navbar{
+    background: #ECF1F4 !important;
+    padding: 15px 0;
+}
+.navbar .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: #636972;
+    margin: 0 15px;
+    padding: 0;
+    transition: all .4s ease;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #55BC7E;
+}
+.main-btn{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    background: #49A26C;
+    box-shadow: 0px 10px 25px rgba(59, 146, 94, 0.15);
+    border-radius: 4px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/*Главная*/
+.main{
+    height: 90vh;
+    background: #ECF1F4 !important;
+}
+.main span{
+    font-size: 11px;
+    line-height: 20px;
+    color: #4E6570;
+    background: #D3E8E1;
+    border-radius: 23px;
+    padding: 5px 20px;
+}
+.main h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #050931; 
+    margin: 20px 0;
+}
+.main p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8F91A2;
+}
+.form-sh{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(70, 85, 103, 0.05);
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.form-control{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #CED3D9;  
+    padding: 15px 25px;
+}
+.form-btn{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #55BC7E;
+    border-radius: 0px 4px 4px 0px;
+    height: 100%;
+    width: 100%;
+}
+.form-btn:hover{
+    color: #FFFFFF;
+    background: #55BC7E;
+}
+.p-0{
+    padding: 0 !important; 
+}
+.item .photo{
+    background-color:rgba(131, 77, 77, 1);
+    height: 200px;
+    width: 100%;
+}
